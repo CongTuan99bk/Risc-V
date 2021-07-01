@@ -1,0 +1,605 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv
+T_opt
+!s110 1625104220
+VN5Ob6:T]hUYW_bb7H2SlH1
+04 10 4 work test_bench fast 0
+=1-c85b7645c36b-60dd1f5a-3a1-3024
+o-quiet -auto_acc_if_foreign -work work_v1 +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.5;63
+vData_Memory
+!s110 1625024295
+!i10b 1
+!s100 miO6fOe2o:VCYkJKCNQO<1
+Im]9EZbY@d1Rjh5kBdgJ`g3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1625024289
+8D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/Data_Memory.v
+FD:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/Data_Memory.v
+L0 9
+Z3 OL;L;10.5;63
+r1
+!s85 0
+31
+!s108 1625024295.000000
+!s107 riscv_defs.v|Parameter.v|D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/Data_Memory.v|
+!s90 -reportprogress|300|-work|work_v1|-vopt|-stats=none|D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/Data_Memory.v|
+!i113 0
+Z4 o-work work_v1 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@data_@memory
+vGPRs
+!s110 1625023422
+!i10b 1
+!s100 lJ?m5C6ZE8GbcC[Ga54Qd0
+IbBL>YPm29`GL3@[1nnY[e0
+R2
+R0
+w1624693850
+8D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/GPRs.v
+FD:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/GPRs.v
+L0 6
+R3
+r1
+!s85 0
+31
+!s108 1625023422.000000
+!s107 D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/GPRs.v|
+!s90 -reportprogress|300|-work|work_v1|-vopt|-stats=none|D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/GPRs.v|
+!i113 0
+R4
+R1
+n@g@p@rs
+vGPRs_read
+!s110 1625022917
+!i10b 1
+!s100 =62YHTM]2l>YKZa6[=I?^0
+I:S[N83aeM<fl6a`0<H;eH1
+R2
+R0
+w1624699406
+8D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/GPRs_read.v
+FD:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/GPRs_read.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1625022917.000000
+!s107 D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/GPRs_read.v|
+!s90 -reportprogress|300|-work|work_v1|-vopt|-stats=none|D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/GPRs_read.v|
+!i113 0
+R4
+R1
+n@g@p@rs_read
+vInstruction_Memory
+!s110 1625049657
+!i10b 1
+!s100 U6e9mGb=<A4>bV]5IOA;H1
+I8E^@IR>K<3nK0T@jznofo3
+R2
+R0
+w1625049652
+8D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/Instruction_Memory.v
+FD:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/Instruction_Memory.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1625049655.000000
+!s107 riscv_defs.v|Parameter.v|D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/Instruction_Memory.v|
+!s90 -reportprogress|300|-work|work_v1|-vopt|-stats=none|D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/Instruction_Memory.v|
+!i113 0
+R4
+R1
+n@instruction_@memory
+vriscv_alu
+Z5 !s110 1625022918
+!i10b 1
+!s100 oZ?2cAkUN7[;i[`eln;f;1
+IkgI]IX4z8k=c3FVn1Bd?C3
+R2
+R0
+Z6 w1624355247
+8D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_alu.v
+FD:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_alu.v
+Z7 Friscv_defs.v
+Z8 L0 41
+R3
+r1
+!s85 0
+31
+Z9 !s108 1625022918.000000
+!s107 riscv_defs.v|D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_alu.v|
+!s90 -reportprogress|300|-work|work_v1|-vopt|-stats=none|D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_alu.v|
+!i113 0
+R4
+R1
+vriscv_core
+R5
+!i10b 1
+!s100 ^]O79`a7R<>PVOCTO4_KY3
+I@:=S9FjdiBAGBeRXkSccL1
+R2
+R0
+Z10 w1588496808
+8D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_core.v
+FD:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_core.v
+Z11 L0 42
+R3
+r1
+!s85 0
+31
+R9
+!s107 D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_core.v|
+!s90 -reportprogress|300|-work|work_v1|-vopt|-stats=none|D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_core.v|
+!i113 0
+R4
+R1
+vriscv_csr
+R5
+!i10b 1
+!s100 =72=z>7:Rm_R^<TRjK:313
+IA^UFWeZUZPg`:9hbP95oG3
+R2
+R0
+w1624355463
+8D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_csr.v
+FD:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_csr.v
+R7
+R11
+R3
+r1
+!s85 0
+31
+R9
+!s107 riscv_defs.v|D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_csr.v|
+!s90 -reportprogress|300|-work|work_v1|-vopt|-stats=none|D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_csr.v|
+!i113 0
+R4
+R1
+vriscv_csr_regfile
+R5
+!i10b 1
+!s100 nnVO^lgHCjGOd:DF7kYhG0
+IlEgaQmAJLMWmGZ44RYLkm0
+R2
+R0
+R6
+8D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_csr_regfile.v
+FD:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_csr_regfile.v
+R7
+R8
+R3
+r1
+!s85 0
+31
+R9
+!s107 riscv_defs.v|D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_csr_regfile.v|
+!s90 -reportprogress|300|-work|work_v1|-vopt|-stats=none|D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_csr_regfile.v|
+!i113 0
+R4
+R1
+vriscv_decode
+Z12 !s110 1625022919
+!i10b 1
+!s100 oB4<[ZQ8CYRQP5[fgFB293
+I_bM5fC^_E[_>fnleE:GKj0
+R2
+R0
+w1624934384
+8D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_decode.v
+FD:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_decode.v
+R11
+R3
+r1
+!s85 0
+31
+R9
+!s107 D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_decode.v|
+!s90 -reportprogress|300|-work|work_v1|-vopt|-stats=none|D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_decode.v|
+!i113 0
+R4
+R1
+vriscv_decoder
+R12
+!i10b 1
+!s100 UTAQa4Ocm5hLGVaj2NlNX1
+ILAETCEM;1>8=o:`5=iFzQ1
+R2
+R0
+w1624761879
+8D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_decoder.v
+FD:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_decoder.v
+Z13 L0 43
+R3
+r1
+!s85 0
+31
+Z14 !s108 1625022919.000000
+!s107 riscv_defs.v|D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_decoder.v|
+!s90 -reportprogress|300|-work|work_v1|-vopt|-stats=none|D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_decoder.v|
+!i113 0
+R4
+R1
+vriscv_divider
+R12
+!i10b 1
+!s100 G4;B5MLbn7Q^CCEO<SaSm1
+I9K[DSS@?ab4fIC;:AeWeY2
+R2
+R0
+w1624355271
+8D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_divider.v
+FD:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_divider.v
+R7
+R11
+R3
+r1
+!s85 0
+31
+R14
+!s107 riscv_defs.v|D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_divider.v|
+!s90 -reportprogress|300|-work|work_v1|-vopt|-stats=none|D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_divider.v|
+!i113 0
+R4
+R1
+vriscv_exec
+!s110 1625104170
+!i10b 1
+!s100 4B6Z0<4IjJ]Qo4d:71Ybj0
+ID^mMe]_E2nGIVf6IjeE0D2
+R2
+R0
+w1625104168
+8D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_exec.v
+FD:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_exec.v
+R7
+R11
+R3
+r1
+!s85 0
+31
+!s108 1625104170.000000
+!s107 riscv_defs.v|D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_exec.v|
+!s90 -reportprogress|300|-work|work_v1|-vopt|-stats=none|D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_exec.v|
+!i113 0
+R4
+R1
+vriscv_fetch
+!s110 1625022920
+!i10b 1
+!s100 Xj`=a@EUQC=ZiBC;XO_2:3
+II^C0fDZ=S7c`D[h`88ZQ73
+R2
+R0
+R6
+8D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_fetch.v
+FD:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_fetch.v
+R7
+R11
+R3
+r1
+!s85 0
+31
+!s108 1625022920.000000
+!s107 riscv_defs.v|D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_fetch.v|
+!s90 -reportprogress|300|-work|work_v1|-vopt|-stats=none|D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_fetch.v|
+!i113 0
+R4
+R1
+vriscv_GPRs_read
+!s110 1625024182
+!i10b 1
+!s100 fXUiG@=SLKSZoDmYUQ@m[2
+I6WcKLoGjBZTmUTNCJn^]33
+R2
+R0
+w1625024181
+8D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read.v
+FD:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read.v
+L0 4
+R3
+r1
+!s85 0
+31
+!s108 1625024182.000000
+!s107 riscv_defs.v|Parameter.v|D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read.v|
+!s90 -reportprogress|300|-work|work_v1|-vopt|-stats=none|D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read.v|
+!i113 0
+R4
+R1
+nriscv_@g@p@rs_read
+vriscv_GPRs_read_lsu
+!s110 1625024167
+!i10b 1
+!s100 RNogFXcSiaJ_8W;<a98gH3
+IzeZoQhV2Aa5eY<db<7<S80
+R2
+R0
+w1625024166
+8D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read_lsu.v
+FD:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read_lsu.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1625024167.000000
+!s107 D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read_lsu.v|
+!s90 -reportprogress|300|-work|work_v1|-vopt|-stats=none|D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read_lsu.v|
+!i113 0
+R4
+R1
+nriscv_@g@p@rs_read_lsu
+vriscv_GPRs_write
+!s110 1625024152
+!i10b 1
+!s100 L6AbKC:EoDhOg`f^C77TE2
+IzfkTOi4<>h8YiDo@:db`H0
+R2
+R0
+w1625024150
+8D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_write.v
+FD:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_write.v
+L0 5
+R3
+r1
+!s85 0
+31
+!s108 1625024152.000000
+!s107 riscv_defs.v|Parameter.v|D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_write.v|
+!s90 -reportprogress|300|-work|work_v1|-vopt|-stats=none|D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_write.v|
+!i113 0
+R4
+R1
+nriscv_@g@p@rs_write
+vriscv_GPRs_write_exe
+!s110 1625024131
+!i10b 1
+!s100 GQomZ8EgPSFLH@VSTX^961
+I=RYo7DF>fD9fXaMJZ?6ol1
+R2
+R0
+w1625024130
+8D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_write_exe.v
+FD:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_write_exe.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1625024131.000000
+!s107 D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_write_exe.v|
+!s90 -reportprogress|300|-work|work_v1|-vopt|-stats=none|D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_write_exe.v|
+!i113 0
+R4
+R1
+nriscv_@g@p@rs_write_exe
+vriscv_issue
+Z15 !s110 1625022922
+!i10b 1
+!s100 GFJ1dH<dd[X3cMLmRKYoB1
+II0_7D>JQ`cQndD>ZzD3@l1
+R2
+R0
+R6
+8D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_issue.v
+FD:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_issue.v
+R7
+R11
+R3
+r1
+!s85 0
+31
+!s108 1625022921.000000
+!s107 riscv_defs.v|D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_issue.v|
+!s90 -reportprogress|300|-work|work_v1|-vopt|-stats=none|D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_issue.v|
+!i113 0
+R4
+R1
+vriscv_lsu
+R15
+!i10b 1
+!s100 G[3VVWD8DESTbjEBKl9931
+ISkE7PgHWjR6Q__D=^4OYi0
+R2
+R0
+Z16 w1624887786
+Z17 8D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_lsu.v
+Z18 FD:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_lsu.v
+R7
+R11
+R3
+r1
+!s85 0
+31
+Z19 !s108 1625022922.000000
+Z20 !s107 riscv_defs.v|D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_lsu.v|
+Z21 !s90 -reportprogress|300|-work|work_v1|-vopt|-stats=none|D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_lsu.v|
+!i113 0
+R4
+R1
+vriscv_lsu_fifo
+R15
+!i10b 1
+!s100 BLfPYa]ikWM`6>OdF[cVE1
+Ilz_3cCeY:gC5C8YIXHIWg2
+R2
+R0
+R16
+R17
+R18
+L0 473
+R3
+r1
+!s85 0
+31
+R19
+R20
+R21
+!i113 0
+R4
+R1
+vriscv_mmu
+Z22 !s110 1625022923
+!i10b 1
+!s100 5Fa;XL48KNC2M68?e3I9k1
+I5LN>?0]:4cga^JP[?z`e11
+R2
+R0
+R6
+8D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_mmu.v
+FD:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_mmu.v
+R7
+R11
+R3
+r1
+!s85 0
+31
+Z23 !s108 1625022923.000000
+!s107 riscv_defs.v|D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_mmu.v|
+!s90 -reportprogress|300|-work|work_v1|-vopt|-stats=none|D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_mmu.v|
+!i113 0
+R4
+R1
+vriscv_multiplier
+R22
+!i10b 1
+!s100 W=7a2JV3?M7^LUaCDkZD93
+IH6RznoToW7A_C<84KhLdk3
+R2
+R0
+w1624374577
+8D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_multiplier.v
+FD:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_multiplier.v
+R7
+R11
+R3
+r1
+!s85 0
+31
+R23
+!s107 riscv_defs.v|D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_multiplier.v|
+!s90 -reportprogress|300|-work|work_v1|-vopt|-stats=none|D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_multiplier.v|
+!i113 0
+R4
+R1
+vriscv_pipe_ctrl
+R22
+!i10b 1
+!s100 PP[bU:oR4AIHiPmhJiM=N3
+I@UCER4a:zH@RW[Q?QH>Wh3
+R2
+R0
+w1624462178
+8D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_pipe_ctrl.v
+FD:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_pipe_ctrl.v
+R7
+R8
+R3
+r1
+!s85 0
+31
+R23
+!s107 riscv_defs.v|D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_pipe_ctrl.v|
+!s90 -reportprogress|300|-work|work_v1|-vopt|-stats=none|D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_pipe_ctrl.v|
+!i113 0
+R4
+R1
+vriscv_regfile
+Z24 !s110 1625022924
+!i10b 1
+!s100 =kFN>a9:ADWXc;ejLd:<71
+IdodXS_2l0jjhcWRU8zK:g0
+R2
+R0
+R10
+8D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_regfile.v
+FD:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_regfile.v
+R8
+R3
+r1
+!s85 0
+31
+R23
+!s107 D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_regfile.v|
+!s90 -reportprogress|300|-work|work_v1|-vopt|-stats=none|D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_regfile.v|
+!i113 0
+R4
+R1
+vriscv_trace_sim
+R24
+!i10b 1
+!s100 3`[`5lO=5aPY_gPhaaIBo2
+Ik[810j]Ygz[S?Y6lWD[650
+R2
+R0
+w1624435211
+8D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_trace_sim.v
+FD:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_trace_sim.v
+R13
+R3
+r1
+!s85 0
+31
+Z25 !s108 1625022924.000000
+!s107 riscv_defs.v|D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_trace_sim.v|
+!s90 -reportprogress|300|-work|work_v1|-vopt|-stats=none|D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_trace_sim.v|
+!i113 0
+R4
+R1
+vriscv_xilinx_2r1w
+R24
+!i10b 1
+!s100 8DiSL7FImMP8F5Cb^l4P>0
+IGdR4dFYYFQ:Q8=nFCoKDW3
+R2
+R0
+R10
+8D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_xilinx_2r1w.v
+FD:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_xilinx_2r1w.v
+L0 44
+R3
+r1
+!s85 0
+31
+R25
+!s107 D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_xilinx_2r1w.v|
+!s90 -reportprogress|300|-work|work_v1|-vopt|-stats=none|D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_xilinx_2r1w.v|
+!i113 0
+R4
+R1
+vtest_bench
+!s110 1625104204
+!i10b 1
+!s100 `KZ6dIQYek5DeH2LfTed61
+I]Go`>_e<=lC?EAdf^1QHj3
+R2
+R0
+w1625024001
+8D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/test_bench.v
+FD:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/test_bench.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1625104203.000000
+!s107 D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/test_bench.v|
+!s90 -reportprogress|300|-work|work_v1|-vopt|-stats=none|D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/test_bench.v|
+!i113 0
+R4
+R1

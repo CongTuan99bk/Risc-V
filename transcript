@@ -1,0 +1,724 @@
+# Reading C:/modeltech64_10.5/tcl/vsim/pref.tcl
+# //  ModelSim SE-64 10.5 Feb 13 2016 
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# OpenFile D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_exec.v
+project open D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_t
+# Loading project riscv_t
+# Compile of Instruction_Memory.v was successful.
+vsim -voptargs=+acc work_v1.test_bench
+# vsim -voptargs="+acc" work_v1.test_bench 
+# Start time: 22:20:32 on Jun 30,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.test_bench(fast)
+# Loading work.Instruction_Memory(fast)
+# Loading work.riscv_decode(fast)
+# Loading work.riscv_decoder(fast)
+# Loading work.riscv_GPRs_read(fast)
+# Loading work.riscv_exec(fast)
+# Loading work.riscv_alu(fast)
+# Loading work.riscv_lsu(fast)
+# Loading work.riscv_GPRs_read_lsu(fast)
+# Loading work.Data_Memory(fast)
+# Loading work.riscv_lsu_fifo(fast)
+# Loading work.riscv_GPRs_write_exe(fast)
+# Loading work.riscv_GPRs_write(fast)
+add wave -position insertpoint  \
+sim:/test_bench/CLOCK_50 \
+sim:/test_bench/branch_d_pc_o \
+sim:/test_bench/branch_d_priv_o \
+sim:/test_bench/branch_d_request_o \
+sim:/test_bench/branch_is_call_o \
+sim:/test_bench/branch_is_jmp_o \
+sim:/test_bench/branch_is_not_taken_o \
+sim:/test_bench/branch_is_ret_o \
+sim:/test_bench/branch_is_taken_o \
+sim:/test_bench/branch_pc_o \
+sim:/test_bench/branch_request_o \
+sim:/test_bench/branch_source_o \
+sim:/test_bench/data_read \
+sim:/test_bench/data_write \
+sim:/test_bench/e_decode \
+sim:/test_bench/exe \
+sim:/test_bench/fetch_in_accept_i \
+sim:/test_bench/fetch_in_fault_fetch_i \
+sim:/test_bench/fetch_in_fault_page_i \
+sim:/test_bench/fetch_in_instr_branch_i \
+sim:/test_bench/fetch_in_instr_csr_i \
+sim:/test_bench/fetch_in_instr_div_i \
+sim:/test_bench/fetch_in_instr_exec_i \
+sim:/test_bench/fetch_in_instr_i \
+sim:/test_bench/fetch_in_instr_invalid_i \
+sim:/test_bench/fetch_in_instr_lsu_i \
+sim:/test_bench/fetch_in_instr_mul_i \
+sim:/test_bench/fetch_in_instr_rd_valid_i \
+sim:/test_bench/fetch_in_pc_i \
+sim:/test_bench/fetch_in_valid_i \
+sim:/test_bench/fetch_out_accept_i \
+sim:/test_bench/fetch_out_fault_fetch_i \
+sim:/test_bench/fetch_out_fault_page_i \
+sim:/test_bench/fetch_out_instr_branch_i \
+sim:/test_bench/fetch_out_instr_csr_i \
+sim:/test_bench/fetch_out_instr_div_i \
+sim:/test_bench/fetch_out_instr_exec_i \
+sim:/test_bench/fetch_out_instr_i \
+sim:/test_bench/fetch_out_instr_invalid_i \
+sim:/test_bench/fetch_out_instr_lsu_i \
+sim:/test_bench/fetch_out_instr_mul_i \
+sim:/test_bench/fetch_out_instr_rd_valid_i \
+sim:/test_bench/fetch_out_pc_i \
+sim:/test_bench/fetch_out_valid_i \
+sim:/test_bench/hold \
+sim:/test_bench/inst \
+sim:/test_bench/l_decode \
+sim:/test_bench/lsu1 \
+sim:/test_bench/mem_addr_o \
+sim:/test_bench/mem_cacheable_o \
+sim:/test_bench/mem_data_wr_o \
+sim:/test_bench/mem_flush_o \
+sim:/test_bench/mem_invalidate_o \
+sim:/test_bench/mem_rd_o \
+sim:/test_bench/mem_read \
+sim:/test_bench/mem_req_tag_o \
+sim:/test_bench/mem_wr_o \
+sim:/test_bench/mem_write_en \
+sim:/test_bench/mem_writeback_o \
+sim:/test_bench/pc_in \
+sim:/test_bench/pc_out \
+sim:/test_bench/period \
+sim:/test_bench/reg1 \
+sim:/test_bench/reg2 \
+sim:/test_bench/rsa \
+sim:/test_bench/rsb \
+sim:/test_bench/rsd \
+sim:/test_bench/rst \
+sim:/test_bench/squash_decode_i \
+sim:/test_bench/stall_o \
+sim:/test_bench/temp \
+sim:/test_bench/value_rsa \
+sim:/test_bench/value_rsb \
+sim:/test_bench/write_en \
+sim:/test_bench/write_ena \
+sim:/test_bench/write_exe \
+sim:/test_bench/writeback_exception_o \
+sim:/test_bench/writeback_valid_o \
+sim:/test_bench/writeback_value_data_o \
+sim:/test_bench/writeback_value_o
+run
+run
+run
+run
+run
+run
+run
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '<' in data on line 2 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read_lsu.v(20)
+#    Time: 130 ns  Iteration: 1  Instance: /test_bench/lsu/regis_value1
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '=' in data on line 2 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read_lsu.v(20)
+#    Time: 130 ns  Iteration: 1  Instance: /test_bench/lsu/regis_value1
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '<' in data on line 2 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read.v(19)
+#    Time: 130 ns  Iteration: 1  Instance: /test_bench/decode/genblk1/regis_value
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '=' in data on line 2 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read.v(19)
+#    Time: 130 ns  Iteration: 1  Instance: /test_bench/decode/genblk1/regis_value
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '<' in data on line 2 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read_lsu.v(20)
+#    Time: 140 ns  Iteration: 1  Instance: /test_bench/lsu/regis_value1
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '=' in data on line 2 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read_lsu.v(20)
+#    Time: 140 ns  Iteration: 1  Instance: /test_bench/lsu/regis_value1
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '<' in data on line 2 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read.v(19)
+#    Time: 140 ns  Iteration: 1  Instance: /test_bench/decode/genblk1/regis_value
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '=' in data on line 2 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read.v(19)
+#    Time: 140 ns  Iteration: 1  Instance: /test_bench/decode/genblk1/regis_value
+run
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '<' in data on line 2 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read_lsu.v(20)
+#    Time: 150 ns  Iteration: 1  Instance: /test_bench/lsu/regis_value1
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '=' in data on line 2 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read_lsu.v(20)
+#    Time: 150 ns  Iteration: 1  Instance: /test_bench/lsu/regis_value1
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '<' in data on line 2 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read.v(19)
+#    Time: 150 ns  Iteration: 1  Instance: /test_bench/decode/genblk1/regis_value
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '=' in data on line 2 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read.v(19)
+#    Time: 150 ns  Iteration: 1  Instance: /test_bench/decode/genblk1/regis_value
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '<' in data on line 2 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read_lsu.v(20)
+#    Time: 160 ns  Iteration: 1  Instance: /test_bench/lsu/regis_value1
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '=' in data on line 2 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read_lsu.v(20)
+#    Time: 160 ns  Iteration: 1  Instance: /test_bench/lsu/regis_value1
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '<' in data on line 2 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read.v(19)
+#    Time: 160 ns  Iteration: 1  Instance: /test_bench/decode/genblk1/regis_value
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '=' in data on line 2 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read.v(19)
+#    Time: 160 ns  Iteration: 1  Instance: /test_bench/decode/genblk1/regis_value
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '<' in data on line 1 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read_lsu.v(20)
+#    Time: 330 ns  Iteration: 1  Instance: /test_bench/lsu/regis_value1
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '=' in data on line 1 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read_lsu.v(20)
+#    Time: 330 ns  Iteration: 1  Instance: /test_bench/lsu/regis_value1
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '<' in data on line 1 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read.v(19)
+#    Time: 330 ns  Iteration: 1  Instance: /test_bench/decode/genblk1/regis_value
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '=' in data on line 1 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read.v(19)
+#    Time: 330 ns  Iteration: 1  Instance: /test_bench/decode/genblk1/regis_value
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '<' in data on line 1 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read_lsu.v(20)
+#    Time: 340 ns  Iteration: 1  Instance: /test_bench/lsu/regis_value1
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '=' in data on line 1 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read_lsu.v(20)
+#    Time: 340 ns  Iteration: 1  Instance: /test_bench/lsu/regis_value1
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '<' in data on line 1 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read.v(19)
+#    Time: 340 ns  Iteration: 1  Instance: /test_bench/decode/genblk1/regis_value
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '=' in data on line 1 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read.v(19)
+#    Time: 340 ns  Iteration: 1  Instance: /test_bench/decode/genblk1/regis_value
+run
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '<' in data on line 1 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read_lsu.v(20)
+#    Time: 350 ns  Iteration: 1  Instance: /test_bench/lsu/regis_value1
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '=' in data on line 1 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read_lsu.v(20)
+#    Time: 350 ns  Iteration: 1  Instance: /test_bench/lsu/regis_value1
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '<' in data on line 1 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read.v(19)
+#    Time: 350 ns  Iteration: 1  Instance: /test_bench/decode/genblk1/regis_value
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '=' in data on line 1 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read.v(19)
+#    Time: 350 ns  Iteration: 1  Instance: /test_bench/decode/genblk1/regis_value
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '<' in data on line 1 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read_lsu.v(20)
+#    Time: 360 ns  Iteration: 1  Instance: /test_bench/lsu/regis_value1
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '=' in data on line 1 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read_lsu.v(20)
+#    Time: 360 ns  Iteration: 1  Instance: /test_bench/lsu/regis_value1
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '<' in data on line 1 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read.v(19)
+#    Time: 360 ns  Iteration: 1  Instance: /test_bench/decode/genblk1/regis_value
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '=' in data on line 1 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read.v(19)
+#    Time: 360 ns  Iteration: 1  Instance: /test_bench/decode/genblk1/regis_value
+run
+run
+run
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '<' in data on line 1 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read_lsu.v(20)
+#    Time: 410 ns  Iteration: 1  Instance: /test_bench/lsu/regis_value1
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '=' in data on line 1 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read_lsu.v(20)
+#    Time: 410 ns  Iteration: 1  Instance: /test_bench/lsu/regis_value1
+# ** Warning: (vsim-PLI-3409) Illegal binary digit 'R' in data on line 1 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read_lsu.v(20)
+#    Time: 410 ns  Iteration: 1  Instance: /test_bench/lsu/regis_value1
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '<' in data on line 1 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read.v(19)
+#    Time: 410 ns  Iteration: 1  Instance: /test_bench/decode/genblk1/regis_value
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '=' in data on line 1 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read.v(19)
+#    Time: 410 ns  Iteration: 1  Instance: /test_bench/decode/genblk1/regis_value
+# ** Warning: (vsim-PLI-3409) Illegal binary digit 'R' in data on line 1 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read.v(19)
+#    Time: 410 ns  Iteration: 1  Instance: /test_bench/decode/genblk1/regis_value
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '<' in data on line 1 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read_lsu.v(20)
+#    Time: 420 ns  Iteration: 1  Instance: /test_bench/lsu/regis_value1
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '=' in data on line 1 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read_lsu.v(20)
+#    Time: 420 ns  Iteration: 1  Instance: /test_bench/lsu/regis_value1
+# ** Warning: (vsim-PLI-3409) Illegal binary digit 'R' in data on line 1 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read_lsu.v(20)
+#    Time: 420 ns  Iteration: 1  Instance: /test_bench/lsu/regis_value1
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '<' in data on line 1 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read.v(19)
+#    Time: 420 ns  Iteration: 1  Instance: /test_bench/decode/genblk1/regis_value
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '=' in data on line 1 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read.v(19)
+#    Time: 420 ns  Iteration: 1  Instance: /test_bench/decode/genblk1/regis_value
+# ** Warning: (vsim-PLI-3409) Illegal binary digit 'R' in data on line 1 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read.v(19)
+#    Time: 420 ns  Iteration: 1  Instance: /test_bench/decode/genblk1/regis_value
+run
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '<' in data on line 1 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read_lsu.v(20)
+#    Time: 430 ns  Iteration: 1  Instance: /test_bench/lsu/regis_value1
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '=' in data on line 1 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read_lsu.v(20)
+#    Time: 430 ns  Iteration: 1  Instance: /test_bench/lsu/regis_value1
+# ** Warning: (vsim-PLI-3409) Illegal binary digit 'R' in data on line 1 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read_lsu.v(20)
+#    Time: 430 ns  Iteration: 1  Instance: /test_bench/lsu/regis_value1
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '<' in data on line 1 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read.v(19)
+#    Time: 430 ns  Iteration: 1  Instance: /test_bench/decode/genblk1/regis_value
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '=' in data on line 1 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read.v(19)
+#    Time: 430 ns  Iteration: 1  Instance: /test_bench/decode/genblk1/regis_value
+# ** Warning: (vsim-PLI-3409) Illegal binary digit 'R' in data on line 1 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read.v(19)
+#    Time: 430 ns  Iteration: 1  Instance: /test_bench/decode/genblk1/regis_value
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '<' in data on line 1 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read_lsu.v(20)
+#    Time: 440 ns  Iteration: 1  Instance: /test_bench/lsu/regis_value1
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '=' in data on line 1 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read_lsu.v(20)
+#    Time: 440 ns  Iteration: 1  Instance: /test_bench/lsu/regis_value1
+# ** Warning: (vsim-PLI-3409) Illegal binary digit 'R' in data on line 1 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read_lsu.v(20)
+#    Time: 440 ns  Iteration: 1  Instance: /test_bench/lsu/regis_value1
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '<' in data on line 1 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read.v(19)
+#    Time: 440 ns  Iteration: 1  Instance: /test_bench/decode/genblk1/regis_value
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '=' in data on line 1 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read.v(19)
+#    Time: 440 ns  Iteration: 1  Instance: /test_bench/decode/genblk1/regis_value
+# ** Warning: (vsim-PLI-3409) Illegal binary digit 'R' in data on line 1 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/register.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read.v(19)
+#    Time: 440 ns  Iteration: 1  Instance: /test_bench/decode/genblk1/regis_value
+run
+quit -sim
+# End time: 23:39:25 on Jun 30,2021, Elapsed time: 1:18:53
+# Errors: 0, Warnings: 56
+project open C:/modeltech64_10.5/examples/riscv_v2
+# reading modelsim.ini
+# reading modelsim.ini
+# Loading project riscv_v2
+vsim -voptargs=+acc work_v2.test_bench
+# vsim -voptargs="+acc" work_v2.test_bench 
+# Start time: 00:28:09 on Jul 01,2021
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.test_bench(fast)
+# Loading work.Instruction(fast)
+# Loading work.riscv_decode(fast)
+# Loading work.riscv_decoder(fast)
+# Loading work.riscv_GPRs_read(fast)
+# Loading work.riscv_exec(fast)
+# Loading work.riscv_alu(fast)
+# Loading work.riscv_lsu(fast)
+# Loading work.Memory(fast)
+# Loading work.riscv_lsu_fifo(fast)
+# Loading work.riscv_GPRs_write(fast)
+add wave -position insertpoint  \
+sim:/test_bench/CLOCK_50 \
+sim:/test_bench/branch_d_pc_o \
+sim:/test_bench/branch_d_priv_o \
+sim:/test_bench/branch_d_request_o \
+sim:/test_bench/branch_is_call_o \
+sim:/test_bench/branch_is_jmp_o \
+sim:/test_bench/branch_is_not_taken_o \
+sim:/test_bench/branch_is_ret_o \
+sim:/test_bench/branch_is_taken_o \
+sim:/test_bench/branch_pc_o \
+sim:/test_bench/branch_request_o \
+sim:/test_bench/branch_source_o \
+sim:/test_bench/data_read \
+sim:/test_bench/data_write \
+sim:/test_bench/e_decode \
+sim:/test_bench/exe \
+sim:/test_bench/fetch_in_accept_i \
+sim:/test_bench/fetch_in_fault_fetch_i \
+sim:/test_bench/fetch_in_fault_page_i \
+sim:/test_bench/fetch_in_instr_branch_i \
+sim:/test_bench/fetch_in_instr_csr_i \
+sim:/test_bench/fetch_in_instr_div_i \
+sim:/test_bench/fetch_in_instr_exec_i \
+sim:/test_bench/fetch_in_instr_i \
+sim:/test_bench/fetch_in_instr_invalid_i \
+sim:/test_bench/fetch_in_instr_lsu_i \
+sim:/test_bench/fetch_in_instr_mul_i \
+sim:/test_bench/fetch_in_instr_rd_valid_i \
+sim:/test_bench/fetch_in_pc_i \
+sim:/test_bench/fetch_in_valid_i \
+sim:/test_bench/fetch_out_accept_i \
+sim:/test_bench/fetch_out_fault_fetch_i \
+sim:/test_bench/fetch_out_fault_page_i \
+sim:/test_bench/fetch_out_instr_branch_i \
+sim:/test_bench/fetch_out_instr_csr_i \
+sim:/test_bench/fetch_out_instr_div_i \
+sim:/test_bench/fetch_out_instr_exec_i \
+sim:/test_bench/fetch_out_instr_i \
+sim:/test_bench/fetch_out_instr_invalid_i \
+sim:/test_bench/fetch_out_instr_lsu_i \
+sim:/test_bench/fetch_out_instr_mul_i \
+sim:/test_bench/fetch_out_instr_rd_valid_i \
+sim:/test_bench/fetch_out_pc_i \
+sim:/test_bench/fetch_out_valid_i \
+sim:/test_bench/hold \
+sim:/test_bench/inst \
+sim:/test_bench/l_decode \
+sim:/test_bench/lsu1 \
+sim:/test_bench/mem_addr_o \
+sim:/test_bench/mem_cacheable_o \
+sim:/test_bench/mem_data_wr_o \
+sim:/test_bench/mem_flush_o \
+sim:/test_bench/mem_invalidate_o \
+sim:/test_bench/mem_rd_o \
+sim:/test_bench/mem_read \
+sim:/test_bench/mem_req_tag_o \
+sim:/test_bench/mem_wr_o \
+sim:/test_bench/mem_write_en \
+sim:/test_bench/mem_writeback_o \
+sim:/test_bench/pc_in \
+sim:/test_bench/pc_out \
+sim:/test_bench/period \
+sim:/test_bench/reg1 \
+sim:/test_bench/reg2 \
+sim:/test_bench/reg_array \
+sim:/test_bench/rsa \
+sim:/test_bench/rsb \
+sim:/test_bench/rsd \
+sim:/test_bench/rst \
+sim:/test_bench/squash_decode_i \
+sim:/test_bench/stall_o \
+sim:/test_bench/temp \
+sim:/test_bench/value_rsa \
+sim:/test_bench/value_rsb \
+sim:/test_bench/write_en \
+sim:/test_bench/write_ena \
+sim:/test_bench/write_exe \
+sim:/test_bench/write_temp \
+sim:/test_bench/writeback_exception_o \
+sim:/test_bench/writeback_valid_o \
+sim:/test_bench/writeback_value_data_o \
+sim:/test_bench/writeback_value_o
+run
+run
+quit -sim
+# End time: 00:29:47 on Jul 01,2021, Elapsed time: 0:01:38
+# Errors: 0, Warnings: 0
+# Compile of DEFINE.v was successful.
+# Compile of Instruction.v was successful.
+vsim -voptargs=+acc work_v2.test_bench
+# vsim -voptargs="+acc" work_v2.test_bench 
+# Start time: 00:30:50 on Jul 01,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.test_bench(fast)
+# Loading work.Instruction(fast)
+# Loading work.riscv_decode(fast)
+# Loading work.riscv_decoder(fast)
+# Loading work.riscv_GPRs_read(fast)
+# Loading work.riscv_exec(fast)
+# Loading work.riscv_alu(fast)
+# Loading work.riscv_lsu(fast)
+# Loading work.Memory(fast)
+# Loading work.riscv_lsu_fifo(fast)
+# Loading work.riscv_GPRs_write(fast)
+add wave -position insertpoint  \
+sim:/test_bench/CLOCK_50 \
+sim:/test_bench/branch_d_pc_o \
+sim:/test_bench/branch_d_priv_o \
+sim:/test_bench/branch_d_request_o \
+sim:/test_bench/branch_is_call_o \
+sim:/test_bench/branch_is_jmp_o \
+sim:/test_bench/branch_is_not_taken_o \
+sim:/test_bench/branch_is_ret_o \
+sim:/test_bench/branch_is_taken_o \
+sim:/test_bench/branch_pc_o \
+sim:/test_bench/branch_request_o \
+sim:/test_bench/branch_source_o \
+sim:/test_bench/data_read \
+sim:/test_bench/data_write \
+sim:/test_bench/e_decode \
+sim:/test_bench/exe \
+sim:/test_bench/fetch_in_accept_i \
+sim:/test_bench/fetch_in_fault_fetch_i \
+sim:/test_bench/fetch_in_fault_page_i \
+sim:/test_bench/fetch_in_instr_branch_i \
+sim:/test_bench/fetch_in_instr_csr_i \
+sim:/test_bench/fetch_in_instr_div_i \
+sim:/test_bench/fetch_in_instr_exec_i \
+sim:/test_bench/fetch_in_instr_i \
+sim:/test_bench/fetch_in_instr_invalid_i \
+sim:/test_bench/fetch_in_instr_lsu_i \
+sim:/test_bench/fetch_in_instr_mul_i \
+sim:/test_bench/fetch_in_instr_rd_valid_i \
+sim:/test_bench/fetch_in_pc_i \
+sim:/test_bench/fetch_in_valid_i \
+sim:/test_bench/fetch_out_accept_i \
+sim:/test_bench/fetch_out_fault_fetch_i \
+sim:/test_bench/fetch_out_fault_page_i \
+sim:/test_bench/fetch_out_instr_branch_i \
+sim:/test_bench/fetch_out_instr_csr_i \
+sim:/test_bench/fetch_out_instr_div_i \
+sim:/test_bench/fetch_out_instr_exec_i \
+sim:/test_bench/fetch_out_instr_i \
+sim:/test_bench/fetch_out_instr_invalid_i \
+sim:/test_bench/fetch_out_instr_lsu_i \
+sim:/test_bench/fetch_out_instr_mul_i \
+sim:/test_bench/fetch_out_instr_rd_valid_i \
+sim:/test_bench/fetch_out_pc_i \
+sim:/test_bench/fetch_out_valid_i \
+sim:/test_bench/hold \
+sim:/test_bench/inst \
+sim:/test_bench/l_decode \
+sim:/test_bench/lsu1 \
+sim:/test_bench/mem_addr_o \
+sim:/test_bench/mem_cacheable_o \
+sim:/test_bench/mem_data_wr_o \
+sim:/test_bench/mem_flush_o \
+sim:/test_bench/mem_invalidate_o \
+sim:/test_bench/mem_rd_o \
+sim:/test_bench/mem_read \
+sim:/test_bench/mem_req_tag_o \
+sim:/test_bench/mem_wr_o \
+sim:/test_bench/mem_write_en \
+sim:/test_bench/mem_writeback_o \
+sim:/test_bench/pc_in \
+sim:/test_bench/pc_out \
+sim:/test_bench/period \
+sim:/test_bench/reg1 \
+sim:/test_bench/reg2 \
+sim:/test_bench/reg_array \
+sim:/test_bench/rsa \
+sim:/test_bench/rsb \
+sim:/test_bench/rsd \
+sim:/test_bench/rst \
+sim:/test_bench/squash_decode_i \
+sim:/test_bench/stall_o \
+sim:/test_bench/temp \
+sim:/test_bench/value_rsa \
+sim:/test_bench/value_rsb \
+sim:/test_bench/write_en \
+sim:/test_bench/write_ena \
+sim:/test_bench/write_exe \
+sim:/test_bench/write_temp \
+sim:/test_bench/writeback_exception_o \
+sim:/test_bench/writeback_valid_o \
+sim:/test_bench/writeback_value_data_o \
+sim:/test_bench/writeback_value_o
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 00:39:22 on Jul 01,2021, Elapsed time: 0:08:32
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work_v2.test_bench
+# vsim -voptargs="+acc" work_v2.test_bench 
+# Start time: 00:40:22 on Jul 01,2021
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.test_bench(fast)
+# Loading work.Instruction(fast)
+# Loading work.riscv_decode(fast)
+# Loading work.riscv_decoder(fast)
+# Loading work.riscv_GPRs_read(fast)
+# Loading work.riscv_exec(fast)
+# Loading work.riscv_alu(fast)
+# Loading work.riscv_lsu(fast)
+# Loading work.Memory(fast)
+# Loading work.riscv_lsu_fifo(fast)
+# Loading work.riscv_GPRs_write(fast)
+add wave -position insertpoint  \
+sim:/test_bench/CLOCK_50 \
+sim:/test_bench/branch_d_pc_o \
+sim:/test_bench/branch_d_priv_o \
+sim:/test_bench/branch_d_request_o \
+sim:/test_bench/branch_is_call_o \
+sim:/test_bench/branch_is_jmp_o \
+sim:/test_bench/branch_is_not_taken_o \
+sim:/test_bench/branch_is_ret_o \
+sim:/test_bench/branch_is_taken_o \
+sim:/test_bench/branch_pc_o \
+sim:/test_bench/branch_request_o \
+sim:/test_bench/branch_source_o \
+sim:/test_bench/data_read \
+sim:/test_bench/data_write \
+sim:/test_bench/e_decode \
+sim:/test_bench/exe \
+sim:/test_bench/fetch_in_accept_i \
+sim:/test_bench/fetch_in_fault_fetch_i \
+sim:/test_bench/fetch_in_fault_page_i \
+sim:/test_bench/fetch_in_instr_branch_i \
+sim:/test_bench/fetch_in_instr_csr_i \
+sim:/test_bench/fetch_in_instr_div_i \
+sim:/test_bench/fetch_in_instr_exec_i \
+sim:/test_bench/fetch_in_instr_i \
+sim:/test_bench/fetch_in_instr_invalid_i \
+sim:/test_bench/fetch_in_instr_lsu_i \
+sim:/test_bench/fetch_in_instr_mul_i \
+sim:/test_bench/fetch_in_instr_rd_valid_i \
+sim:/test_bench/fetch_in_pc_i \
+sim:/test_bench/fetch_in_valid_i \
+sim:/test_bench/fetch_out_accept_i \
+sim:/test_bench/fetch_out_fault_fetch_i \
+sim:/test_bench/fetch_out_fault_page_i \
+sim:/test_bench/fetch_out_instr_branch_i \
+sim:/test_bench/fetch_out_instr_csr_i \
+sim:/test_bench/fetch_out_instr_div_i \
+sim:/test_bench/fetch_out_instr_exec_i \
+sim:/test_bench/fetch_out_instr_i \
+sim:/test_bench/fetch_out_instr_invalid_i \
+sim:/test_bench/fetch_out_instr_lsu_i \
+sim:/test_bench/fetch_out_instr_mul_i \
+sim:/test_bench/fetch_out_instr_rd_valid_i \
+sim:/test_bench/fetch_out_pc_i \
+sim:/test_bench/fetch_out_valid_i \
+sim:/test_bench/hold \
+sim:/test_bench/inst \
+sim:/test_bench/l_decode \
+sim:/test_bench/lsu1 \
+sim:/test_bench/mem_addr_o \
+sim:/test_bench/mem_cacheable_o \
+sim:/test_bench/mem_data_wr_o \
+sim:/test_bench/mem_flush_o \
+sim:/test_bench/mem_invalidate_o \
+sim:/test_bench/mem_rd_o \
+sim:/test_bench/mem_read \
+sim:/test_bench/mem_req_tag_o \
+sim:/test_bench/mem_wr_o \
+sim:/test_bench/mem_write_en \
+sim:/test_bench/mem_writeback_o \
+sim:/test_bench/pc_in \
+sim:/test_bench/pc_out \
+sim:/test_bench/period \
+sim:/test_bench/reg1 \
+sim:/test_bench/reg2 \
+sim:/test_bench/reg_array \
+sim:/test_bench/rsa \
+sim:/test_bench/rsb \
+sim:/test_bench/rsd \
+sim:/test_bench/rst \
+sim:/test_bench/squash_decode_i \
+sim:/test_bench/stall_o \
+sim:/test_bench/temp \
+sim:/test_bench/value_rsa \
+sim:/test_bench/value_rsb \
+sim:/test_bench/write_en \
+sim:/test_bench/write_ena \
+sim:/test_bench/write_exe \
+sim:/test_bench/write_temp \
+sim:/test_bench/writeback_exception_o \
+sim:/test_bench/writeback_valid_o \
+sim:/test_bench/writeback_value_data_o \
+sim:/test_bench/writeback_value_o
+run
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '2' in data on line 2 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv_ct/test.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv_ct/Memory.v(45)
+#    Time: 0 ps  Iteration: 1  Instance: /test_bench/lsu/mem
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '2' in data on line 2 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv_ct/test.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv_ct/Memory.v(45)
+#    Time: 10 ns  Iteration: 1  Instance: /test_bench/lsu/mem
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '2' in data on line 2 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv_ct/test.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv_ct/Memory.v(45)
+#    Time: 20 ns  Iteration: 1  Instance: /test_bench/lsu/mem
+run
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '2' in data on line 2 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv_ct/test.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv_ct/Memory.v(45)
+#    Time: 30 ns  Iteration: 1  Instance: /test_bench/lsu/mem
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '2' in data on line 2 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv_ct/test.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv_ct/Memory.v(45)
+#    Time: 40 ns  Iteration: 1  Instance: /test_bench/lsu/mem
+run
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '2' in data on line 2 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv_ct/test.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv_ct/Memory.v(45)
+#    Time: 50 ns  Iteration: 1  Instance: /test_bench/lsu/mem
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '2' in data on line 2 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv_ct/test.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv_ct/Memory.v(45)
+#    Time: 60 ns  Iteration: 1  Instance: /test_bench/lsu/mem
+run
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '2' in data on line 2 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv_ct/test.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv_ct/Memory.v(45)
+#    Time: 70 ns  Iteration: 1  Instance: /test_bench/lsu/mem
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '2' in data on line 2 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv_ct/test.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv_ct/Memory.v(45)
+#    Time: 80 ns  Iteration: 1  Instance: /test_bench/lsu/mem
+run
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '2' in data on line 2 of file "D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv_ct/test.data".    : D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv_ct/Memory.v(45)
+#    Time: 90 ns  Iteration: 1  Instance: /test_bench/lsu/mem
+quit -sim
+# End time: 00:43:00 on Jul 01,2021, Elapsed time: 0:02:38
+# Errors: 0, Warnings: 10
+vsim -voptargs=+acc work_v2.test_bench
+# vsim -voptargs="+acc" work_v2.test_bench 
+# Start time: 00:43:26 on Jul 01,2021
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.test_bench(fast)
+# Loading work.Instruction(fast)
+# Loading work.riscv_decode(fast)
+# Loading work.riscv_decoder(fast)
+# Loading work.riscv_GPRs_read(fast)
+# Loading work.riscv_exec(fast)
+# Loading work.riscv_alu(fast)
+# Loading work.riscv_lsu(fast)
+# Loading work.Memory(fast)
+# Loading work.riscv_lsu_fifo(fast)
+# Loading work.riscv_GPRs_write(fast)
+add wave -position insertpoint  \
+sim:/test_bench/CLOCK_50 \
+sim:/test_bench/branch_d_pc_o \
+sim:/test_bench/branch_d_priv_o \
+sim:/test_bench/branch_d_request_o \
+sim:/test_bench/branch_is_call_o \
+sim:/test_bench/branch_is_jmp_o \
+sim:/test_bench/branch_is_not_taken_o \
+sim:/test_bench/branch_is_ret_o \
+sim:/test_bench/branch_is_taken_o \
+sim:/test_bench/branch_pc_o \
+sim:/test_bench/branch_request_o \
+sim:/test_bench/branch_source_o \
+sim:/test_bench/data_read \
+sim:/test_bench/data_write \
+sim:/test_bench/e_decode \
+sim:/test_bench/exe \
+sim:/test_bench/fetch_in_accept_i \
+sim:/test_bench/fetch_in_fault_fetch_i \
+sim:/test_bench/fetch_in_fault_page_i \
+sim:/test_bench/fetch_in_instr_branch_i \
+sim:/test_bench/fetch_in_instr_csr_i \
+sim:/test_bench/fetch_in_instr_div_i \
+sim:/test_bench/fetch_in_instr_exec_i \
+sim:/test_bench/fetch_in_instr_i \
+sim:/test_bench/fetch_in_instr_invalid_i \
+sim:/test_bench/fetch_in_instr_lsu_i \
+sim:/test_bench/fetch_in_instr_mul_i \
+sim:/test_bench/fetch_in_instr_rd_valid_i \
+sim:/test_bench/fetch_in_pc_i \
+sim:/test_bench/fetch_in_valid_i \
+sim:/test_bench/fetch_out_accept_i \
+sim:/test_bench/fetch_out_fault_fetch_i \
+sim:/test_bench/fetch_out_fault_page_i \
+sim:/test_bench/fetch_out_instr_branch_i \
+sim:/test_bench/fetch_out_instr_csr_i \
+sim:/test_bench/fetch_out_instr_div_i \
+sim:/test_bench/fetch_out_instr_exec_i \
+sim:/test_bench/fetch_out_instr_i \
+sim:/test_bench/fetch_out_instr_invalid_i \
+sim:/test_bench/fetch_out_instr_lsu_i \
+sim:/test_bench/fetch_out_instr_mul_i \
+sim:/test_bench/fetch_out_instr_rd_valid_i \
+sim:/test_bench/fetch_out_pc_i \
+sim:/test_bench/fetch_out_valid_i \
+sim:/test_bench/hold \
+sim:/test_bench/inst \
+sim:/test_bench/l_decode \
+sim:/test_bench/lsu1 \
+sim:/test_bench/mem_addr_o \
+sim:/test_bench/mem_cacheable_o \
+sim:/test_bench/mem_data_wr_o \
+sim:/test_bench/mem_flush_o \
+sim:/test_bench/mem_invalidate_o \
+sim:/test_bench/mem_rd_o \
+sim:/test_bench/mem_read \
+sim:/test_bench/mem_req_tag_o \
+sim:/test_bench/mem_wr_o \
+sim:/test_bench/mem_write_en \
+sim:/test_bench/mem_writeback_o \
+sim:/test_bench/pc_in \
+sim:/test_bench/pc_out \
+sim:/test_bench/period \
+sim:/test_bench/reg1 \
+sim:/test_bench/reg2 \
+sim:/test_bench/reg_array \
+sim:/test_bench/rsa \
+sim:/test_bench/rsb \
+sim:/test_bench/rsd \
+sim:/test_bench/rst \
+sim:/test_bench/squash_decode_i \
+sim:/test_bench/stall_o \
+sim:/test_bench/temp \
+sim:/test_bench/value_rsa \
+sim:/test_bench/value_rsb \
+sim:/test_bench/write_en \
+sim:/test_bench/write_ena \
+sim:/test_bench/write_exe \
+sim:/test_bench/write_temp \
+sim:/test_bench/writeback_exception_o \
+sim:/test_bench/writeback_valid_o \
+sim:/test_bench/writeback_value_data_o \
+sim:/test_bench/writeback_value_o
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 00:52:14 on Jul 01,2021, Elapsed time: 0:08:48
+# Errors: 0, Warnings: 0

@@ -1,0 +1,190 @@
+D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read_lsu.v {1 {vlog -work work_v1 -vopt -stats=none D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read_lsu.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module riscv_GPRs_read_lsu
+
+Top level modules:
+	riscv_GPRs_read_lsu
+
+} {} {}} D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_pipe_ctrl.v {1 {vlog -work work_v1 -vopt -stats=none D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_pipe_ctrl.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module riscv_pipe_ctrl
+
+Top level modules:
+	riscv_pipe_ctrl
+
+} {} {}} D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_fetch.v {1 {vlog -work work_v1 -vopt -stats=none D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_fetch.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module riscv_fetch
+
+Top level modules:
+	riscv_fetch
+
+} {} {}} D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/Instruction_Memory.v {1 {vlog -work work_v1 -vopt -stats=none D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/Instruction_Memory.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module Instruction_Memory
+
+Top level modules:
+	Instruction_Memory
+
+} {} {}} D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_lsu.v {1 {vlog -work work_v1 -vopt -stats=none D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_lsu.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module riscv_lsu
+-- Compiling module riscv_lsu_fifo
+
+Top level modules:
+	riscv_lsu
+
+} {} {}} D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_decode.v {1 {vlog -work work_v1 -vopt -stats=none D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_decode.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module riscv_decode
+
+Top level modules:
+	riscv_decode
+
+} {} {}} D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_csr_regfile.v {1 {vlog -work work_v1 -vopt -stats=none D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_csr_regfile.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module riscv_csr_regfile
+
+Top level modules:
+	riscv_csr_regfile
+
+} {} {}} D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_decoder.v {1 {vlog -work work_v1 -vopt -stats=none D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_decoder.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module riscv_decoder
+
+Top level modules:
+	riscv_decoder
+
+} {} {}} D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_trace_sim.v {1 {vlog -work work_v1 -vopt -stats=none D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_trace_sim.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module riscv_trace_sim
+
+Top level modules:
+	riscv_trace_sim
+
+} {} {}} D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_multiplier.v {1 {vlog -work work_v1 -vopt -stats=none D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_multiplier.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module riscv_multiplier
+
+Top level modules:
+	riscv_multiplier
+
+} {} {}} D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_divider.v {1 {vlog -work work_v1 -vopt -stats=none D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_divider.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module riscv_divider
+
+Top level modules:
+	riscv_divider
+
+} {} {}} D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_write_exe.v {1 {vlog -work work_v1 -vopt -stats=none D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_write_exe.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module riscv_GPRs_write_exe
+
+Top level modules:
+	riscv_GPRs_write_exe
+
+} {} {}} D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_xilinx_2r1w.v {1 {vlog -work work_v1 -vopt -stats=none D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_xilinx_2r1w.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module riscv_xilinx_2r1w
+
+Top level modules:
+	riscv_xilinx_2r1w
+
+} {} {}} D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_csr.v {1 {vlog -work work_v1 -vopt -stats=none D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_csr.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module riscv_csr
+
+Top level modules:
+	riscv_csr
+
+} {} {}} D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_core.v {1 {vlog -work work_v1 -vopt -stats=none D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_core.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module riscv_core
+
+Top level modules:
+	riscv_core
+
+} {} {}} D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/test_bench.v {1 {vlog -work work_v1 -vopt -stats=none D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/test_bench.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module test_bench
+
+Top level modules:
+	test_bench
+
+} {} {}} D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_defs.v {1 {vlog -work work_v1 -vopt -stats=none D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_defs.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+
+} {} {}} D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_alu.v {1 {vlog -work work_v1 -vopt -stats=none D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_alu.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module riscv_alu
+
+Top level modules:
+	riscv_alu
+
+} {} {}} D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/Parameter.v {1 {vlog -work work_v1 -vopt -stats=none D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/Parameter.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+
+} {} {}} D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/Data_Memory.v {1 {vlog -work work_v1 -vopt -stats=none D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/Data_Memory.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module Data_Memory
+
+Top level modules:
+	Data_Memory
+
+} {} {}} D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_exec.v {1 {vlog -work work_v1 -vopt -stats=none D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_exec.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module riscv_exec
+
+Top level modules:
+	riscv_exec
+
+} {} {}} D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/GPRs.v {1 {vlog -work work_v1 -vopt -stats=none D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/GPRs.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module GPRs
+
+Top level modules:
+	GPRs
+
+} {} {}} D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_regfile.v {1 {vlog -work work_v1 -vopt -stats=none D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_regfile.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module riscv_regfile
+
+Top level modules:
+	riscv_regfile
+
+} {} {}} D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_write.v {1 {vlog -work work_v1 -vopt -stats=none D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_write.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module riscv_GPRs_write
+
+Top level modules:
+	riscv_GPRs_write
+
+} {} {}} D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_mmu.v {1 {vlog -work work_v1 -vopt -stats=none D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_mmu.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module riscv_mmu
+
+Top level modules:
+	riscv_mmu
+
+} {} {}} D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read.v {1 {vlog -work work_v1 -vopt -stats=none D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_GPRs_read.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module riscv_GPRs_read
+
+Top level modules:
+	riscv_GPRs_read
+
+} {} {}} D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/GPRs_read.v {1 {vlog -work work_v1 -vopt -stats=none D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/GPRs_read.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module GPRs_read
+
+Top level modules:
+	GPRs_read
+
+} {} {}} D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_issue.v {1 {vlog -work work_v1 -vopt -stats=none D:/Nam_4/Kien_truc_may_tinh/BTL/riscv-master/core/riscv/riscv_issue.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module riscv_issue
+
+Top level modules:
+	riscv_issue
+
+} {} {}}
